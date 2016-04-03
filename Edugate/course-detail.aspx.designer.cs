@@ -11,7 +11,7 @@ namespace Edugate
 {
 
 
-    public partial class mynewpage
+    public partial class course_detail
     {
     }
 }
