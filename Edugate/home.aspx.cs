@@ -7,7 +7,7 @@ using System.Web.UI.WebControls;
 
 namespace Edugate
 {
-    public partial class my : System.Web.UI.MasterPage
+    public partial class home : System.Web.UI.Page
     {
         protected void Page_Load(object sender, EventArgs e)
         {
