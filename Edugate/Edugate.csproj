@@ -293,7 +293,6 @@
     <Content Include="assets\libs\smooth-scroll\jquery-smoothscroll.js" />
     <Content Include="assets\libs\wow-js\wow.min.js" />
     <Content Include="Contactus.aspx" />
-    <Content Include="Contatcus.aspx" />
     <Content Include="course-detail.aspx" />
     <Content Include="features.aspx" />
     <Content Include="packages.config" />
@@ -386,13 +385,6 @@
     </Compile>
     <Compile Include="Contactus.aspx.designer.cs">
       <DependentUpon>Contactus.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="Contatcus.aspx.cs">
-      <DependentUpon>Contatcus.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="Contatcus.aspx.designer.cs">
-      <DependentUpon>Contatcus.aspx</DependentUpon>
     </Compile>
     <Compile Include="course-detail.aspx.cs">
       <DependentUpon>course-detail.aspx</DependentUpon>
