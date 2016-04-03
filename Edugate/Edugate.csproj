@@ -313,12 +313,14 @@
     <Content Include="assets\libs\bootstrap-3.3.5\fonts\glyphicons-halflings-regulard41d.eot" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
+    <Content Include="Schoolhome.aspx" />
     <Content Include="TestPage.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
     <Content Include="Basic.Master" />
     <Content Include="WebForm1.aspx" />
+    <Content Include="School.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -405,6 +407,20 @@
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="School.Master.cs">
+      <DependentUpon>School.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="School.Master.designer.cs">
+      <DependentUpon>School.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Schoolhome.aspx.cs">
+      <DependentUpon>Schoolhome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Schoolhome.aspx.designer.cs">
+      <DependentUpon>Schoolhome.aspx</DependentUpon>
+    </Compile>
     <Compile Include="skins.cs" />
     <Compile Include="Startup.cs" />
     <Compile Include="TestPage.aspx.cs">
